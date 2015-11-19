@@ -1,0 +1,68 @@
+@media print {
+
+	* {-webkit-print-color-adjust:exact;}
+	
+	@page {
+		size: auto;   /* auto is the current printer page size */
+        margin: 0mm;
+	}
+	
+	body {
+		margin: 10mm !important;
+	}
+	
+	.dontPrint {
+		display: none !important;
+	}
+		
+	#current {
+		margin-top: 1cm !important;
+	}
+	
+	#preview {
+		margin-left: 0 !important;
+		max-width: none !important;
+		float: none !important;
+	}
+	
+	.tab-label {
+		display: none !important;
+	}
+	
+	#tab-body-1,
+	#tab-body-2,
+	#tab-body-3,
+	#tab-body-4 {
+		display: block !important;
+		page-break-before:always;
+	}	
+
+	.tab-body-wrapper {
+		border: none !important;
+	}
+	
+	.printDontShow {
+		display: block !important;
+		text-align: left !important;
+		clear: both !important;
+	}
+	
+	svg:not(:root) {
+   		overflow: hidden;
+   		height: 400px;
+	}
+	
+	#wlanHotspot {
+		position: static !important;
+		margin-top: 1cm;
+	}
+	#ta-reward{
+		postion:static !important;
+	}
+
+	#wlanT, #ta-plain {
+		float: none !important;
+		margin:0;
+	}
+	
+}

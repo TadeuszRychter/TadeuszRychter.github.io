@@ -1,0 +1,70 @@
+<aside class="site-sidebar">
+
+	<div class="module">
+		<header class="block-module-header">
+			<h2>
+				<div class="svg-container">
+					<svg class="icon icon-tag" viewBox="0 0 32 32">
+						<use xlink:href="#icon-happy"></use>
+					</svg>
+				</div>
+				About me
+			</h2>
+		</header>
+		<p class="module-body">
+			<p>I'm a frontend developer based in Warsaw, Poland. <br />Formerly in Munich, Germany. Originally from Wrocław.</p>
+			<p>You can find me at:</p>
+			<ul style="list-style-type: none">
+				<li>
+					<div class="svg-container">
+						<svg class="icon icon-tag" viewBox="0 0 32 32">
+							<use xlink:href="#icon-github"></use>
+						</svg>
+					</div>
+					<a href="https://github.com/TadeuszRychter">GitHub</a></li>
+				<li>
+					<div class="svg-container">
+						<svg class="icon icon-tag" viewBox="0 0 32 32">
+							<use xlink:href="#icon-linkedin"></use>
+						</svg>
+					</div>
+					<a href="https://pl.linkedin.com/in/tadeuszrychter">LinkedIn</a>
+				</li>
+				<li>
+					<div class="svg-container">
+						<svg class="icon icon-tag" viewBox="0 0 32 32">
+							<use xlink:href="#icon-xing"></use>
+						</svg>
+					</div>
+					<a href="https://www.xing.com/profile/Tadeusz_Rychter">Xing</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="module">
+		<header class="block-module-header">
+			<h2>
+				<div class="svg-container">
+					<svg class="icon icon-tag" viewBox="0 0 32 32">
+						<use xlink:href="#icon-tag"></use>
+					</svg>
+				</div>
+				Tags
+			</h2>
+		</header>
+		<div class="module-body">
+			<p>
+				{% for tag in site.tags %}
+					{% assign tag_name = tag | first %}
+					{% assign tag_size = tag | last | size %}
+					{% assign tag_slug = tag_name | slugify  %}
+					<a class="tag-label bold" href="/tag/{{tag_slug | prepend: site.baseurl}}">
+						{{tag_name}} ({{tag_size}})
+					</a>
+				{% endfor %}
+			</p>
+		</div>
+	</div>
+
+</aside>
