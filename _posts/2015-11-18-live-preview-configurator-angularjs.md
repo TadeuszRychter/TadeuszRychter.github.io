@@ -32,7 +32,7 @@ To complete the preview you could display a copy of the uploaded logo on the per
 Instead of CSS3 one could use SVG transformations. Depending on a workflow it might be an easier way to achieve the perfect alignment.
 
 ## Sidenotes 
-You can check the [DEMO](/demo-live-preview/) or the commented [source code at GitHub]().
+You can check the [DEMO](/demo-live-preview/) or the commented [source code at GitHub](https://github.com/TadeuszRychter/picker).
 Mind you that it’s a demo version and might not have sufficient error handling etc.
 For the handling of two colours I toggle two instances of a colour picker since I [couldn’t pull it off](http://stackoverflow.com/questions/30187527/dynamically-choosing-models-for-data-binding-using-a-jquery-plugin-via-a-direct) in a more elegant fashion. I also realise that fiddling with HTML in the controller is against best practices, but with plugins relying closely on each other that seems to be justified. Maybe somebody could propose better solutions to these problems in the comments.
 
