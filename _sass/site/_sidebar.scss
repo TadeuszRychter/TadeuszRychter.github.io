@@ -29,10 +29,10 @@
 
 	.svg-container {
 		padding: 0;
-		.icon {
+		/*.icon {
 			width: 1em;
 			height: .8em;
-		}
+		}*/
 	}
 
 	@include breakpoint(medium){
