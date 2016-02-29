@@ -50,7 +50,7 @@ In our case that would result in three different classes:
 .widget__button {}
 .widget__button--important {}</code></pre>
 
-It’s always a good idea to put some meaning into a class name rather than a specific value. What if your <code class="language-css">.widget__button—red {}</code> ought to be green when clicked or grey when disabled? Small things like that lead to misunderstandings and extra work.
+It’s always a good idea to put some meaning into a class name rather than a specific value. What if your <code class="language-css">.widget__button—-red {}</code> ought to be green when clicked or grey when disabled? Small things like that lead to misunderstandings and extra work.
 
 I hope you could see that writing CSS that works is very different than creating something maintainable, future-proof and friendly to the developers.
 
