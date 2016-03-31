@@ -9,6 +9,7 @@ author: "Tadeusz Rychter"
 ---
 In this article I’m going to show some CSS anti-examples, explain them and gradually improve the code.
 <!-- more -->
+
 Let’s say that we’re creating a widget. It’s just a div with a button – an anchor – in it. How could we style it?
 
 <pre class="line-numbers"><code class="language-css">#widget {
