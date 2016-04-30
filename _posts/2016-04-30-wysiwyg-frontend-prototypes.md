@@ -28,11 +28,11 @@ You can buy a premium Bootstrap Theme and import it to the Pinegrow. The idea be
 
 ![alt text](http://blog.fullystacked.it/images/pinegrow-add-snippet.png "Create a snippet in Pinegrow")
 
-![alt text](http://blog.fullystacked.it/images/pinegrow-change-colour.png "Pinegrow edit a component")
+![alt text](http://blog.fullystacked.it/images/pinegrow-adding-from-collection.png "Use a snippet from collection in Pinegrow")
 
 It’s very easy to not only place the components, but also to edit them. 
 
-![alt text](http://blog.fullystacked.it/images/pinegrow-adding-from-collection.png "Use a snippet from collection in Pinegrow")
+![alt text](http://blog.fullystacked.it/images/pinegrow-change-colour.png "Pinegrow edit a component")
 
 Do you already see how each of the stakeholders can go beyond simply (yet clearly!) expressing oneself and actually modify something? Since it’s all code it can be easily versioned.
 
