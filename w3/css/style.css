@@ -1,0 +1,81 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #fdf6e3;
+    font-size: 1.1em;
+    color: #333;
+    font-family: "Segoe UI", Segoe, Tahoma, sans-serif;
+}
+
+#main {
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.hot {
+    color: red;
+}
+
+.cold {
+    color: #4fa9e8;
+}
+
+.city {
+    float: left;
+    padding: 10px;
+    border-right: 2px solid #6b0ea6;
+    border-top: 2px solid #6b0ea6;
+    border-bottom: 2px solid #6b0ea6;
+    border-left: none;
+}
+
+.city:hover {
+    cursor: pointer;
+}
+
+.city.active {
+    background-color: #6b0ea6;
+    color: #fff;
+}
+
+.city.active:hover {
+    cursor: inherit;
+}
+
+.city:first-child {
+    border-left: 2px solid #6b0ea6;
+}
+
+.city-name {
+    font-weight: bold;
+}
+
+#tip {
+    padding-top: 1em;
+    clear: both;
+}
+
+table {
+    border: 2px solid #6b0ea6;
+    text-align: center;
+    padding: 4px 6px;
+}
+
+th {
+    background-color: #6b0ea6;
+    color: #fff;
+}
+
+th, td {
+    padding: 0.5em 1em;
+}
+
+tr:nth-child(odd) {
+    background-color: #f8eccd;
+}
